@@ -1,4 +1,4 @@
-package org.eval.ui
+package org.eval.ui.eval
 
 import android.util.Log
 import androidx.databinding.Bindable

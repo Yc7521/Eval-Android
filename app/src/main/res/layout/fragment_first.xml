@@ -6,14 +6,14 @@
 
         <variable
             name="data"
-            type="org.eval.ui.EvalViewModel" />
+            type="org.eval.ui.eval.EvalViewModel" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".ui.FirstFragment">
+        tools:context=".ui.eval.FirstFragment">
 
         <Space
             android:layout_width="wrap_content"
