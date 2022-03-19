@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">小工具</string>
-    <string name="action_settings">设置</string>
+    <string name="app_name">Tools</string>
+    <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="main_activity_label">主页</string>
-    <string name="eval_fragment_label">简易计算器</string>
-    <string name="bmi_fragment_label">Bmi计算器</string>
-    <string name="home_fragment_label">主页</string>
-    <string name="next">下一个</string>
-    <string name="previous">上一个</string>
+    <string name="main_activity_label">Main Activity</string>
+    <string name="eval_fragment_label">Eval Fragment</string>
+    <string name="bmi_fragment_label">Bmi Fragment</string>
+    <string name="home_fragment_label">Home Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
@@ -30,6 +30,6 @@
     <string name="add">+</string>
     <string name="_0">0</string>
     <string name="dot">.</string>
-    <string name="eq"><![CDATA[=]]></string>
-    <string name="nav">导航</string>
+    <string name="eq">=</string>
+    <string name="nav">navigation</string>
 </resources>

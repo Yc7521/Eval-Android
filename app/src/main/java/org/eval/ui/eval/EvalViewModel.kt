@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import org.eval.BR
 import org.eval.util.ObservableViewModel
 import org.eval.util.Util
+import java.math.BigDecimal
 
 open class EvalViewModel : ObservableViewModel() {
     @Bindable
@@ -88,7 +89,10 @@ open class EvalViewModel : ObservableViewModel() {
     open fun onEq() {
         try {
             submit()
-            val eval = Util.eval(expr.toString() + '\n')
+            val eval =
+                with(Util.eval(expr.toString() + '\n')) {
+                    toPlainString()
+                }
             curr.apply {
                 delete(0, length)
                 append(eval)

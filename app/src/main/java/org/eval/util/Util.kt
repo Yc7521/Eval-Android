@@ -5,9 +5,10 @@ import org.antlr.v4.runtime.CommonTokenStream
 import org.eval.grammar.EvalVisitor
 import org.eval.grammar.gen.EvalLexer
 import org.eval.grammar.gen.EvalParser
+import java.math.BigDecimal
 
 object Util {
-    fun eval(expr: String): Double {
+    fun eval(expr: String): BigDecimal {
         // 对每一个输入的字符串，构造一个 CodePointCharStream
         val cs = CharStreams.fromString(expr)
         // 用 cs 构造词法分析器 lexer，词法分析的作用是产生记号
