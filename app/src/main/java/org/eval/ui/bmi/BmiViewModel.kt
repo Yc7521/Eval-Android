@@ -61,4 +61,12 @@ open class BmiViewModel : ObservableViewModel() {
         notifyChange()
     }
 
+    fun onReset() {
+        weight.value = ""
+        height.value = ""
+        bmiInfo.value = ""
+        analysis.value = ""
+        notifyChange()
+    }
+
 }

@@ -23,6 +23,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Eval/app/src/main/res/layout-land/fragment_eval.xml" value="0.21604938271604937" />
         <entry key="..\:/Android/Eval/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
         <entry key="..\:/Android/Eval/app/src/main/res/layout/content_main.xml" value="0.22916666666666666" />
         <entry key="..\:/Android/Eval/app/src/main/res/layout/fragment_bmi.xml" value="0.2" />
@@ -30,6 +31,7 @@
         <entry key="..\:/Android/Eval/app/src/main/res/layout/fragment_first.xml" value="0.2" />
         <entry key="..\:/Android/Eval/app/src/main/res/layout/fragment_home.xml" value="0.2149122807017544" />
         <entry key="..\:/Android/Eval/app/src/main/res/layout/fragment_second.xml" value="0.22916666666666666" />
+        <entry key="..\:/Android/Eval/app/src/main/res/menu/menu_bmi.xml" value="0.2149122807017544" />
         <entry key="..\:/Android/Eval/app/src/main/res/menu/menu_main.xml" value="0.2149122807017544" />
       </map>
     </option>

@@ -32,4 +32,5 @@
     <string name="dot">.</string>
     <string name="eq">=</string>
     <string name="nav">navigation</string>
+    <string name="bmi_clear">clear</string>
 </resources>
